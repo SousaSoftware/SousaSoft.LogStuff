@@ -14,7 +14,7 @@ Use SousaSoft.LogStuff.Log.Header = Environment.NewLine & " MYAPP LOG .... " //i
 Use SousaSoft.LogStuff.Log.Add("Text") // order to add text in your log. Edit Text for your Text :D
 
 
-Use SousaSoft.LogStuff.LogViewer.LogFile = My.Computer.FileSystem.CurrentPath & "\Log.txt" //in order to save in LaunchPath with name Log (Just an example)
+Use SousaSoft.LogStuff.LogViewer.LogFile = My.Computer.FileSystem.CurrentPath & "\Log.txt" //in order to load from LaunchPath with name Log (Just an example)
 
 Use SousaSoft.LogStuff.LogViewer.CLReader().ToString() // in order to get current log in some richtextbox or some data stream
 
